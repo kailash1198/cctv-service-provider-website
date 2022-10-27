@@ -249,6 +249,118 @@ li {
                             FEATURE SECTION
      ===================================================== */
 
+#feature {
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.146);
+}
+
+#feature .container {
+    width: 80%;
+    margin: auto;
+    padding: 3rem 0rem;
+}
+
+#feature .container .box {
+    width: 100%;
+}
+
+#feature .container .box .box-container {
+    width: 100%;
+    display: flex;
+}
+
+#feature .container .box .box-container .card {
+    padding: 2rem;
+}
+
+#feature .container .box .box-container .card i {
+    color: #0957E7;
+    font-size: 3rem;
+}
+
+#feature .container .box .box-container .card h3 {
+    padding: 1rem 0rem;
+}
+
+#feature .container .box .box-container .card p {
+    color: gray;
+    line-height: 1.8;
+}
+
+
+/* ================================================== 
+                        ADVANTAGE SECTION
+===================================================== */
+
+#advantage {
+    width: 100%;
+    height: 130vh;
+    background-image: url(./images/advantage-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    color: white;
+}
+
+#advantage .container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 3rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#advantage .container .box {
+    width: 100%;
+}
+
+#advantage .container .box1 p {
+    background-color: #0957E7;
+    display: inline-block;
+    padding: 0.2rem 1rem;
+    border-radius: 1rem;
+}
+
+#advantage .container .box1 h1 {
+    padding-top: 0.5rem;
+    width: 70%;
+}
+
+#advantage .container .box2 {
+    width: 100%;
+}
+
+#advantage .container .box2 .sub-box {
+    width: 100%;
+    display: flex;
+}
+
+#advantage .container .box2 .sub-box .card {
+    padding: 1rem;
+}
+
+#advantage .container .box2 .sub-box .card .sub-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#advantage .container .box2 .sub-box .card .sub-card .icon {
+    font-size: 2rem;
+    margin: 0rem 1rem;
+}
+
+#advantage .container .box2 .sub-box .card .sub-card .icon i {
+    color: #0957E7;
+}
+
+#advantage .container .box2 .sub-box .card .sub-card p {
+    line-height: 1.9;
+    padding: 1rem 0rem;
+}
+
 
 /* =========== media quary ===============  */
 
