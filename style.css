@@ -29,6 +29,10 @@ li {
                 utilities class
  ================================================ */
 
+.color-grey {
+    color: gray;
+}
+
 
 /* ===============================================
                     H E R O    SECTION 
@@ -360,6 +364,225 @@ li {
     line-height: 1.9;
     padding: 1rem 0rem;
 }
+
+
+/* ================================================== 
+                    COUNT SECTION
+===================================================== */
+
+#count {
+    width: 100%;
+    padding: 4rem 0rem;
+    background-color: black;
+    color: white;
+}
+
+#count .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#count .container .card {
+    width: 100%;
+    margin: 0rem 1rem;
+    padding: 1rem;
+}
+
+#count .container .card .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#count .container .card .card-container .card-box {
+    width: 100%;
+}
+
+#count .container .card .card-container .card-box i {
+    font-size: 2.5rem;
+    color: #0957E7;
+}
+
+
+/* ================================================== 
+                      PLAN SECTION
+     ===================================================== */
+
+#plan {
+    width: 100%;
+    padding: 3rem 0rem;
+}
+
+#plan .container {
+    width: 80%;
+    margin: auto;
+}
+
+#plan .container .box1 {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 3rem 0rem;
+}
+
+#plan .container .box1 .title {
+    display: inline-block;
+    background-color: #0957E7;
+    color: white;
+    padding: 0.3rem 1.5rem;
+    border-radius: 1rem;
+}
+
+#plan .container .box1 h1 {
+    padding: 0.5rem 0rem;
+}
+
+#plan .container .box1 .des {
+    color: gray;
+    width: 65%;
+    margin: auto
+}
+
+#plan .container .box2 {
+    width: 100%;
+    padding: 3rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#plan .container .box2 .sub-box {
+    /* background-color: red; */
+    padding: 2.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 6px 24px rgb(0 0 0 / 12%);
+}
+
+#plan .container .box2 .sub-box1 {
+    z-index: 1;
+    position: relative;
+    left: 20px;
+    padding: 4rem 7rem;
+    background-color: white;
+}
+
+#plan .container .box2 .sub-box2 {
+    padding: 7rem 3rem;
+    z-index: 2;
+    background-color: white;
+}
+
+#plan .container .box2 .sub-box h2 {
+    text-align: center;
+}
+
+#plan .container .box2 .sub-box h1 {
+    text-align: center;
+    padding: 0.5rem 0rem;
+    color: #0957E7;
+    font-size: 2.5rem;
+}
+
+#plan .container .box2 .sub-box p {
+    padding: 0.2rem 0rem;
+    font-size: 0.9rem;
+}
+
+#plan .container .box2 .sub-box i {
+    color: #0957E7;
+}
+
+#plan .container .box2 .sub-box1 .btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+
+#plan .container .box2 .sub-box2 .btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+
+#plan .container .box2 .sub-box1 a {
+    background-color: #0957E7;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.3rem;
+}
+
+#plan .container .box2 .sub-box2 a {
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.3rem;
+}
+
+#plan .container .box3 {
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0rem;
+    border-radius: 0.5rem;
+    position: relative;
+    bottom: 110px;
+    background-color: white;
+    z-index: 0;
+    box-shadow: 0 6px 24px rgb(0 0 0 / 12%);
+}
+
+#plan .container .box3 .box-container {
+    /* width: 100%; */
+}
+
+#plan .container .box3 .box-container h2,
+h1 {
+    text-align: center;
+}
+
+#plan .container .box3 .box-container h1 {
+    color: #0957E7;
+    font-size: 2.5rem;
+}
+
+#plan .container .box3 .box-container i {
+    color: #0957E7;
+}
+
+#plan .container .box3 .box-container p {
+    padding: 0.2rem 0rem;
+    font-size: 0.9rem;
+    color: gray;
+}
+
+#plan .container .box3 .box-container .btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+
+#plan .container .box3 .box-container .btn a {
+    background-color: #0957E7;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.3rem;
+}
+
+
+/* ================================================== 
+                    PRODUCT SECTION
+===================================================== */
 
 
 /* =========== media quary ===============  */
