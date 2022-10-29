@@ -584,6 +584,176 @@ h1 {
                     PRODUCT SECTION
 ===================================================== */
 
+#product {
+    width: 100%;
+    padding: 5rem 0rem;
+    background-color: rgba(128, 128, 128, 0.082);
+}
+
+#product .container {
+    width: 80%;
+    margin: auto;
+}
+
+#product .container .pro-box1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#product .container .pro-box1 .pro-sub-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+#product .container .pro-box1 .pro-sub-box h3 {
+    padding: 0rem 0.7rem;
+}
+
+#product .container .pro-box1 .pro-sub-box h3:hover {
+    color: #0957E7;
+    transition: all 0.4s;
+}
+
+#product .container .pro-box1 .pro-sub-box i {
+    font-size: 1.5rem;
+    padding: 0.5rem 0.7rem;
+    background-color: white;
+    margin: 0rem 0.4rem;
+    border-radius: 50%;
+    box-shadow: 0px 1px 15px gray;
+}
+
+#product .container .pro-box1 .pro-sub-box i:hover {
+    color: #0957E7;
+    transition: all 0.4s;
+}
+
+#product .container .pro-box2 {
+    width: 100%;
+    padding: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#product .container .pro-box2 .item-card {
+    width: 100%;
+    margin: 0rem 1rem;
+    text-align: center;
+}
+
+#product .container .pro-box2 .item-card .product-img {
+    width: 100%;
+}
+
+#product .container .pro-box2 .item-card .product-img img {
+    width: 100%;
+}
+
+#product .container .pro-box2 .item-card h3 {
+    padding: 0.3rem 0rem;
+}
+
+#product .container .pro-box2 .item-card h3:hover {
+    color: #0957E7;
+    transition: all 0.5s;
+}
+
+#product .container .pro-box2 .item-card .product-price {
+    color: rgb(82, 79, 79);
+}
+
+
+/* ================================================== 
+                      PROTECT SECTION
+     ===================================================== */
+
+#protect {
+    width: 100%;
+    height: 120vh;
+    background-image: url(./images/protect.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 2rem 0rem;
+}
+
+#protect .container {
+    width: 80%;
+    margin: auto;
+    padding: 2rem 0rem;
+}
+
+#protect .container .box1 {
+    width: 40%;
+    padding: 2rem 0rem;
+}
+
+#protect .container .box1 p {
+    background-color: #0957E7;
+    padding: 0.4rem 1.5rem;
+    border-radius: 1rem;
+    display: inline-block;
+}
+
+#protect .container .box1 h3 {
+    padding: 0.7rem 0rem;
+}
+
+#protect .container .box2 {
+    width: 50%;
+    padding: 1rem 0rem;
+    display: flex;
+    border-bottom: 1px solid white;
+}
+
+#protect .container .box2 h3 {
+    margin: 0rem 0.6rem;
+}
+
+#protect .container .box2 h3:hover {
+    color: #0957E7;
+    transition: all 0.5s;
+}
+
+#protect .container .box3 {
+    width: 100%;
+    padding: 3rem 0rem;
+    display: flex;
+}
+
+#protect .container .box3 .paragraph {
+    width: 40%;
+}
+
+#protect .container .box3 .paragraph p {
+    line-height: 1.8;
+}
+
+#protect .container .box3 .logo-section {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#protect .container .box3 .logo-section .logo-first {
+    padding: 1rem;
+}
+
+#protect .container .box3 .logo-section .logo-first img {
+    width: 40px;
+}
+
+#protect .container .box4 a {
+    background-color: #0957E7;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.2rem;
+}
+
 
 /* =========== media quary ===============  */
 
