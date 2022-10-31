@@ -755,6 +755,251 @@ h1 {
 }
 
 
+/* ================================================== 
+                    TEAM SECTION
+===================================================== */
+
+#team {
+    width: 100%;
+    padding: 3rem 0rem;
+    background-color: rgba(128, 128, 128, 0.082);
+}
+
+#team .container {
+    width: 50%;
+    margin: auto;
+}
+
+#team .container .team-box {
+    width: 100%;
+}
+
+#team .container .team-box .team-heading {
+    width: 100%;
+    padding: 3rem 0rem;
+    text-align: center;
+}
+
+#team .container .team-box .team-heading .title {
+    background-color: #0957E7;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+    display: inline-block;
+}
+
+#team .container .team-box .team-heading h1 {
+    padding: 0.5rem 0rem;
+}
+
+#team .container .team-box .team-heading .des {
+    width: 70%;
+    margin: auto;
+    color: gray;
+    line-height: 1.9;
+}
+
+#team .container .team-box2 {
+    width: 100%;
+    display: flex;
+}
+
+#team .container .team-box2 .team-card {
+    width: 100%;
+    margin: 0rem 0.5rem;
+}
+
+#team .container .team-box2 .team-card .team-img {
+    width: 100%;
+}
+
+#team .container .team-box2 .team-card .team-img img {
+    width: 100%;
+}
+
+#team .container .team-box2 .team-card .team-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    background-color: #0957E7;
+    padding: 0.3rem;
+    color: white;
+}
+
+
+/* - ================================================== 
+                      CONTACT SECTION
+     ===================================================== */
+
+#contact {
+    width: 100%;
+    padding: 4rem 0rem;
+}
+
+#contact .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+#contact .container .contact-box {
+    width: 100%;
+    padding: 0rem 1rem;
+}
+
+#contact .container .contact-box1 .sub-box1 {
+    padding: 4rem 0rem;
+}
+
+#contact .container .contact-box1 .sub-box1 h1 {
+    text-align: left;
+    font-size: 2rem;
+}
+
+#contact .container .contact-box1 .sub-box2 {
+    width: 100%;
+}
+
+#contact .container .contact-box1 .sub-box2 .contact-card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+
+#contact .container .contact-box1 .sub-box2 .contact-card .card-box {
+    padding: 0rem 1rem;
+}
+
+#contact .container .contact-box1 .sub-box2 .contact-card .card-box i {
+    background-color: #0957E7;
+    color: white;
+    padding: 1.8rem 1.5rem;
+    font-size: 2rem;
+    border-radius: 50%;
+}
+
+#contact .container .contact-box1 .sub-box2 .contact-card .card-box p {
+    color: gray;
+}
+
+#contact .container .contact-box2 {
+    width: 100%;
+}
+
+#contact .container .contact-box2 .sub-box1 {
+    width: 100%;
+    padding: 4rem 0rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#contact .container .contact-box2 .sub-box1 h1 {
+    text-align: right;
+    font-size: 1rem;
+    border: 1px solid gray;
+    padding: 1rem 2rem;
+    display: inline-block;
+    border-radius: 0.3rem;
+}
+
+#contact .container .contact-box2 .sub-box1 h1:hover {
+    color: #0957E7;
+    border: 1px solid #0957E7;
+    transition: all 0.5s;
+    box-shadow: 1px 3px 20px gray;
+}
+
+#contact .container .contact-box2 .sub-box2 {
+    width: 100%;
+    padding: 2rem 0rem;
+    display: flex;
+}
+
+#contact .container .contact-box2 .sub-box2 input {
+    /* display: flex; */
+    padding: 1rem 0.3rem;
+    margin: 0.3rem;
+    width: 100%;
+}
+
+#contact .container .contact-box2 .sub-box3 {
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+#contact .container .contact-box2 .sub-box3 textarea {
+    width: 100%;
+    padding: 3rem;
+}
+
+#contact .container .contact-box2 .sub-box4 {
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+#contact .container .contact-box2 .sub-box4 a {
+    background-color: #0957e7ce;
+    color: white;
+    padding: 1.5rem 2rem;
+    display: block;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+#contact .container .contact-box2 .sub-box4 a:hover {
+    transition: all 0.5s;
+    background-color: #0957E7;
+}
+
+
+/* ================================================== 
+MAP SECTION
+===================================================== */
+
+#map {
+    width: 100%;
+    /* padding: 3rem 0rem; */
+}
+
+#map .container {
+    width: 100%;
+}
+
+#map .container iframe {
+    width: 100%;
+}
+
+
+/* ================================================== 
+                    FOOTER SECTION
+=====================================================  */
+
+#footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 3rem 0rem;
+}
+
+#footer .container {
+    width: 80%;
+    margin: auto;
+}
+
+#footer .container .box {
+    width: 100%;
+}
+
+#footer .container .box1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
 /* =========== media quary ===============  */
 
 @media only screen and (max-width: 768px) {}
