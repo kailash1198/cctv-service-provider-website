@@ -987,6 +987,7 @@ MAP SECTION
 #footer .container {
     width: 80%;
     margin: auto;
+    /* padding: 3rem 0rem; */
 }
 
 #footer .container .box {
@@ -997,6 +998,45 @@ MAP SECTION
     width: 100%;
     display: flex;
     justify-content: space-around;
+    padding: 2rem 0rem;
+}
+
+#footer .container .box1 .footer-card {
+    width: 100%;
+}
+
+#footer .container .box1 .footer-card .content {
+    width: 100%;
+}
+
+#footer .container .box1 .footer-card .content h2 {
+    padding: 2rem 0rem;
+}
+
+#footer .container .box1 .footer-card .content p {
+    padding: 0.6rem 0rem;
+}
+
+#footer .container .box1 .footer-card .content i {
+    color: #0957E7;
+    padding: 0rem 0.5rem;
+}
+
+#footer .container .box2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 3rem;
+    border-top: 0.5px solid rgba(255, 255, 255, 0.174);
+    box-shadow: 1px 0px 30px rgba(54, 76, 119, 0.402);
+}
+
+#footer .container .box2 i {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    background-color: gray;
+    border-radius: 50%;
 }
 
 
