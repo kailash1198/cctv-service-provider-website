@@ -1,0 +1,173 @@
+/* ============================================= 
+                media quary: index.html 
+===============================================  */
+
+@media only screen and (max-width: 768px) {
+    /* -------- HERO SECTION ------------  */
+    #header {
+        height: 120vh;
+        background-position: center center;
+    }
+    #header #heroNav {
+        width: 90%;
+    }
+    #header .heroNav .container .logo {
+        width: 50%;
+    }
+    #header .heroNav .container .navMenu {
+        display: none;
+    }
+    #header .heroNav .container .navCartIcon {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    #header .heroContent {
+        top: 40%;
+    }
+    #header .heroContent .container {
+        width: 90%;
+    }
+    #header .heroContent .container .row-block {
+        width: 90%;
+        text-align: center;
+    }
+    #header .heroContent .container .row-block h1 {
+        padding: 1rem 0rem;
+    }
+    #header .heroContent .container .btn-block {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #header .heroContent .container .btn-block .primary-btn {
+        padding: 1rem 1rem;
+        margin: 1rem 0rem;
+    }
+    /* ---------------ABOUT SECTION ----------  */
+    #aboutCmp {
+        padding: 3rem 0rem;
+    }
+    #aboutCmp .container {
+        width: 90%;
+        display: block;
+    }
+    #aboutCmp .container .aboutCmpBox {
+        padding: 3rem 0rem;
+    }
+    /* ------ FEATURE SECTION ---------  */
+    #feature .container {
+        width: 90%;
+    }
+    #feature .container .box .box-container {
+        display: block;
+    }
+    /* ------------ ADVANTAGE SECTION ----------  */
+    #advantage {
+        height: 180vh;
+    }
+    #advantage .container {
+        width: 90%;
+        display: block;
+    }
+    #advantage .container .box1 p {
+        text-align: center;
+        display: block;
+    }
+    #advantage .container .box1 h1 {
+        width: 100%;
+    }
+    #advantage .container .box2 .sub-box {
+        display: block;
+    }
+    /* ----------- COUNT SECTION -------  */
+    #count .container {
+        width: 90%;
+        display: block;
+    }
+    /* ---------- PLAN SECTION -------  */
+    #plan .container {
+        width: 90%;
+    }
+    #plan .container .box1 {
+        width: 100%;
+    }
+    #plan .container .box1 .des {
+        width: 100%;
+    }
+    #plan .container .box2 {
+        width: 100%;
+        display: block;
+    }
+    #plan .container .box2 .sub-box {
+        padding: 1rem;
+        margin: 2rem 0rem;
+    }
+    #plan .container .box2 .sub-box1 {
+        position: relative;
+        left: 0px;
+    }
+    #plan .container .box2 .sub-box p {
+        padding: 0.3rem 1rem;
+    }
+    #plan .container .box3 {
+        position: relative;
+        bottom: 0px;
+        padding: 0rem;
+    }
+    #plan .container .box3 .box-container {
+        padding: 1rem;
+    }
+    /* ----------- PRODUCT SECTION ----------  */
+    #product .container {
+        width: 90%;
+    }
+    #product .container .pro-box1 {
+        display: none;
+    }
+    #product .container .pro-box2 {
+        display: block;
+    }
+    #product .container .pro-box2 .item-card {
+        margin: 1rem 0rem;
+    }
+    /* ------------ PROTECT SECTION --------  */
+    #protect {
+        height: 150vh;
+    }
+    #protect .container {
+        width: 90%;
+    }
+    #protect .container .box1 {
+        width: 100%;
+    }
+    #protect .container .box2 {
+        width: 100%;
+        display: block;
+    }
+    #protect .container .box3 {
+        display: block;
+    }
+    #protect .container .box3 .paragraph {
+        width: 100%;
+    }
+    /* ---------- TEAM SECTION ----------  */
+    #team .container {
+        width: 90%;
+    }
+    #team .container .team-box2 {
+        display: block;
+    }
+    #team .container .team-box2 .team-card {
+        margin: 1rem 0rem;
+    }
+    #team .container .team-box2 .team-card .team-img img {
+        width: 100%;
+        border-radius: 1rem;
+    }
+    #team .container .team-box2 .team-card .team-info {
+        padding: 1.5rem 1rem;
+        border-radius: 0.3rem;
+        font-size: 1rem;
+    }
+}

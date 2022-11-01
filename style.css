@@ -73,7 +73,7 @@ li {
 }
 
 #header .heroNav .container .navMenu {
-    width: 60%%;
+    width: 60%;
 }
 
 #header .heroNav .container .navMenu .navBar {
@@ -766,7 +766,7 @@ h1 {
 }
 
 #team .container {
-    width: 50%;
+    width: 80%;
     margin: auto;
 }
 
@@ -1038,8 +1038,3 @@ MAP SECTION
     background-color: gray;
     border-radius: 50%;
 }
-
-
-/* =========== media quary ===============  */
-
-@media only screen and (max-width: 768px) {}
