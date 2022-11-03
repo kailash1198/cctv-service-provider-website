@@ -18,6 +18,10 @@ li {
     list-style: none;
 }
 
+body {
+    background-color: rgba(128, 128, 128, 0.041);
+}
+
 
 /* ===============================================
                     H E R O    SECTION 
@@ -297,4 +301,200 @@ li {
 #count .container .card .card-container p {
     line-height: 1.8;
     font-size: 0.9rem;
+}
+
+
+/* ===============================================
+                TESTIMONIALS SECTION
+================================================= */
+
+#testimonials {
+    width: 100%;
+    padding: 4rem 0rem;
+}
+
+#testimonials .container {
+    width: 80%;
+    margin: auto;
+}
+
+#testimonials .container .box {
+    width: 100%;
+}
+
+#testimonials .container .box .box-container {
+    width: 100%;
+}
+
+#testimonials .container .box1 {
+    text-align: center;
+    padding: 3rem 0rem;
+}
+
+#testimonials .container .box1 .box-container .title {
+    color: white;
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    background-color: #0957E7;
+}
+
+#testimonials .container .box1 .box-container h1 {
+    padding: 0.5rem 0rem;
+}
+
+#testimonials .container .box1 .box-container .des {
+    width: 50%;
+    margin: auto;
+    color: gray;
+}
+
+#testimonials .container .box2 {
+    width: 100%;
+    padding: 3rem 0rem;
+    display: flex;
+    align-items: center;
+}
+
+#testimonials .container .box2 .card {
+    width: 100%;
+    padding: 0rem 2rem;
+    text-align: center;
+}
+
+#testimonials .container .box2 .card .card-container {
+    width: 100%;
+}
+
+#testimonials .container .box2 .card .card-container .team-img {
+    width: 100%;
+}
+
+#testimonials .container .box2 .card .card-container .team-img img {
+    width: 100px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    padding: 1.5rem 0rem;
+}
+
+#testimonials .container .box2 .card .card-container .team-info .team-name {
+    font-weight: bolder;
+}
+
+#testimonials .container .box2 .card .card-container .team-info .team-desig {
+    color: #0957E7;
+    padding: 0.4rem 0rem;
+}
+
+#testimonials .container .box2 .card .card-container .team-info .team-about {
+    color: gray;
+    padding: 0.5rem;
+}
+
+#testimonials .container .box2 .card .card-container .team-social-icon {
+    padding: 2rem 0rem;
+}
+
+#testimonials .container .box2 .card .card-container .team-social-icon i {
+    color: gray;
+    font-size: 1.5rem;
+    padding: 0rem 0.5rem;
+}
+
+
+/* ===============================================
+                    FOOTER
+================================================= */
+
+#footer {
+    width: 100%;
+    padding: 5rem 0rem;
+    background-color: white;
+    box-shadow: 5px 3px 20px gray;
+}
+
+#footer .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer .container .box {
+    width: 100%;
+    margin: 0rem 1rem;
+}
+
+#footer .container .box1 {
+    text-align: center;
+}
+
+#footer .container .box1 p {
+    color: gray;
+    padding: 1.2rem 0rem;
+    line-height: 1.8;
+}
+
+#footer .container .box1 .icon {
+    padding: 1rem 0rem;
+}
+
+#footer .container .box1 .icon i {
+    font-size: 1.5rem;
+    color: gray;
+    padding: 0rem 0.5rem;
+}
+
+#footer .container .box2 {
+    padding: 0rem 1rem;
+}
+
+#footer .container .box2 .sub-box {
+    width: 100%;
+}
+
+#footer .container .box2 .sub-box1 {
+    padding: 1rem 0rem;
+    text-align: center;
+}
+
+#footer .container .box2 .sub-box1 h2 {
+    color: gray;
+}
+
+#footer .container .box2 .sub-box2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .container .box2 .sub-box2 .card p {
+    padding: 0.3rem 0rem;
+    text-align: center;
+}
+
+#footer .container .box3 {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+#footer .container .box3 h1 {
+    padding: 1rem 0rem;
+    color: #0957E7;
+}
+
+#footer .container .box3 p {
+    padding: 1rem 0rem;
+}
+
+
+/* ===============================================
+                   COPYRIGHT SECTION
+================================================= */
+
+#copy {
+    width: 100%;
+    padding: 3rem 0rem;
+    text-align: center;
 }
