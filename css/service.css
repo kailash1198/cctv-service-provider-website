@@ -265,3 +265,36 @@ li {
 #feature .container .card .card-container p {
     color: gray;
 }
+
+
+/* ===============================================
+                    COUNT SECTION
+================================================= */
+
+#count {
+    width: 100%;
+    padding: 5rem 0rem;
+    background-color: #0957e7b4;
+    color: white;
+}
+
+#count .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: c;
+}
+
+#count .container .card {
+    padding: 1rem;
+}
+
+#count .container .card .card-container h3 {
+    padding: 0.5rem 0rem;
+}
+
+#count .container .card .card-container p {
+    line-height: 1.8;
+    font-size: 0.9rem;
+}
