@@ -227,3 +227,41 @@ li {
     width: 100%;
     padding: 1rem 0rem;
 }
+
+
+/* 
+=================================================
+                    FEATURE SECTION
+================================================= */
+
+#feature {
+    width: 100%;
+    padding: 5rem 0rem;
+    background-color: rgba(128, 128, 128, 0.096);
+    border-top: 1px solid rgba(128, 128, 128, 0.281);
+}
+
+#feature .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#feature .container .card {
+    padding: 0.5rem;
+}
+
+#feature .container .card .card-container i {
+    color: #0957E7;
+    font-size: 2.5rem;
+}
+
+#feature .container .card .card-container h3 {
+    padding: 1rem 0rem;
+}
+
+#feature .container .card .card-container p {
+    color: gray;
+}
