@@ -125,6 +125,114 @@ body {
 }
 
 
+/* ===============================================
+                    OUR PROJECT HEADER
+================================================ */
+
+#service {
+    width: 100%;
+}
+
+#service .container {
+    width: 80%;
+    margin: auto;
+    padding: 4rem 0rem;
+}
+
+#service .container .box {
+    width: 100%;
+    padding: 3rem 0rem;
+}
+
+#service .container .box1 .box-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#service .container .box2 .box-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#service .container .box2 .box-container .card {
+    width: 100%;
+    margin: 0rem 1rem;
+    text-align: center;
+}
+
+#service .container .box2 .box-container .card .card-img {
+    width: 100%;
+}
+
+#service .container .box2 .box-container .card .card-img img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+#service .container .box2 .box-container .card .card-content {
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+#service .container .box3 .box-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#service .container .box3 .box-container .card {
+    width: 100%;
+    margin: 0rem 1rem;
+    text-align: center;
+}
+
+#service .container .box3 .box-container .card .card-img {
+    width: 100%;
+}
+
+#service .container .box3 .box-container .card .card-img img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+#service .container .box3 .box-container .card .card-content {
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+#service .container .box4 .box-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#service .container .box4 .box-container .card {
+    width: 100%;
+    margin: 0rem 1rem;
+    text-align: center;
+}
+
+#service .container .box4 .box-container .card .card-img {
+    width: 100%;
+}
+
+#service .container .box4 .box-container .card .card-img img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+#service .container .box4 .box-container .card .card-content {
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+
 /* 
 =================================================
                     FEATURE SECTION
