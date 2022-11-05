@@ -34,6 +34,31 @@ li {
 }
 
 
+/* ========= DROPDOWN MENU LIST CSS CODE =========  */
+
+.drop-list {
+    flex-direction: column;
+    /* background-color: #0957e79c; */
+    background-color: rgba(0, 0, 0, 0.457);
+    color: white;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    position: absolute;
+    visibility: hidden;
+    /* margin-top: 1.5rem; */
+}
+
+.dropdown-menu:hover .drop-list {
+    visibility: visible;
+    transition: all 0.5s;
+}
+
+.dropdown-menu:hover .drop-list a li {
+    color: white;
+    padding: 0.3rem 0rem;
+}
+
+
 /* ===============================================
                     H E R O    SECTION 
  ==================================================  */
