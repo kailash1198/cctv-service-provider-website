@@ -412,6 +412,66 @@ body {
 
 
 /* ===============================================
+                OUR STATISTICS SECTION
+=================================================  */
+
+#statistics {
+    width: 100%;
+    padding: 5rem 0rem;
+    background-color: white;
+}
+
+#statistics .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+#statistics .container .box1 {
+    width: 30%;
+    padding: 0rem 1rem;
+}
+
+#statistics .container .box1 .content p {
+    background-color: #0957E7;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1.5rem;
+    display: inline-block;
+}
+
+#statistics .container .box1 .content h1 {
+    font-size: 2.5rem;
+    padding: 1rem 0em;
+}
+
+#statistics .container .box2 {
+    width: 100%;
+    display: flex;
+    padding: 0rem 2rem;
+}
+
+#statistics .container .box2 .sub-box {
+    width: 100%;
+    padding: 0rem 2rem;
+}
+
+#statistics .container .box2 .sub-box .card {
+    padding: 1rem 0rem;
+}
+
+#statistics .container .box2 .sub-box .card p {
+    font-weight: bolder;
+}
+
+#statistics .container .box2 .sub-box .card input {
+    width: 100%;
+    background-color: #0957E7;
+    border: none;
+}
+
+
+/* ===============================================
                     FOOTER
 ================================================= */
 
