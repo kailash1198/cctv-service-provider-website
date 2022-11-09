@@ -216,6 +216,114 @@ body {
 }
 
 
+/* =====================================================                        OUR ADVANTAGES SECTION ====================================================== */
+
+#advantage {
+    width: 100%;
+    padding: 4rem 0rem;
+    background-color: rgba(128, 128, 128, 0.034);
+}
+
+#advantage .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+#advantage .container .box1 {
+    width: 30%;
+}
+
+#advantage .container .box1 p {
+    background-color: #0957E7;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1.5rem;
+    display: inline-block;
+}
+
+#advantage .container .box1 h1 {
+    font-size: 2.5rem;
+    padding: 1rem 0rem;
+}
+
+#advantage .container .box2 .sub-box {
+    display: flex;
+}
+
+#advantage .container .box2 .sub-box .card {
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#advantage .container .box2 .sub-box .card .icon i {
+    font-size: 2.5rem;
+    color: #0957E7;
+}
+
+#advantage .container .box2 .sub-box .card .card-content {
+    padding-left: 1rem;
+}
+
+#advantage .container .box2 .sub-box .card .card-content p {
+    color: gray;
+    padding: 1rem 0rem;
+}
+
+
+/* =====================================================                           ASK QUESTIONS SECTION ======================================================  */
+
+#ask {
+    width: 100%;
+    background-color: white;
+    padding: 5rem 0rem;
+}
+
+#ask .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+#ask .container .box1 {
+    width: 30%;
+}
+
+#ask .container .box1 .content p {
+    background-color: #0957E7;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1.5rem;
+    display: inline-block;
+}
+
+#ask .container .box1 .content h1 {
+    font-size: 2.5rem;
+    padding: 1rem 0rem;
+}
+
+#ask .container .box2 .content .questions-1 {
+    padding: 1rem 0rem;
+}
+
+#ask .container .box2 .content .questions-1 .question {
+    font-weight: bolder;
+    padding: 0.5rem 0rem;
+    font-size: 1.2rem;
+}
+
+#ask .container .box2 .content .questions-1 .answer {
+    color: gray;
+}
+
+
+/* ===============================================
+                       OUR TEAM SECTION
+    ================================================= */
+
+
 /* ===============================================
                     FOOTER
 ================================================= */
