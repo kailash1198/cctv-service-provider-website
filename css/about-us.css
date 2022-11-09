@@ -323,6 +323,93 @@ body {
                        OUR TEAM SECTION
     ================================================= */
 
+#team {
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.062);
+    padding: 7rem 0rem;
+}
+
+#team .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+#team .container .box1 {
+    width: 40%;
+}
+
+#team .container .box1 .content .team-title {
+    background-color: #0957E7;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1.5rem;
+    display: inline-block;
+}
+
+#team .container .box1 .content h1 {
+    font-size: 2.5rem;
+    padding: 1rem 0rem;
+}
+
+#team .container .box1 .content .team-des {
+    color: gray;
+    line-height: 1.8;
+}
+
+#team .container .box2 {
+    width: 100%;
+    background-color: white;
+    margin: 0rem 1.5rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 3px 8px 30px rgba(128, 128, 128, 0.162);
+}
+
+#team .container .box2 .sub-box1 img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#team .container .box2 .sub-box2 {
+    width: 100%;
+    padding: 0rem 1.5rem;
+}
+
+#team .container .box2 .sub-box2 .content {
+    width: 100%;
+}
+
+#team .container .box2 .sub-box2 .content .team-name {
+    text-align: center;
+    font-weight: bolder;
+}
+
+#team .container .box2 .sub-box2 .content .designation {
+    text-align: center;
+    padding: 0.5rem 0rem;
+    color: #0957E7;
+}
+
+#team .container .box2 .sub-box2 .content .team-about {
+    padding: 1rem 0rem;
+    line-height: 1.9;
+    color: gray;
+}
+
+#team .container .box2 .sub-box2 .content .team-s-icon {
+    text-align: center;
+}
+
+#team .container .box2 .sub-box2 .content .team-s-icon i {
+    color: gray;
+    font-size: 1.5rem;
+    padding: 0rem 0.5rem;
+}
+
 
 /* ===============================================
                     FOOTER
