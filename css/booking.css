@@ -1,0 +1,322 @@
+/* ===============================================
+                        css reset 
+==================================================  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.041);
+}
+
+
+/* =========👇👇 DROPDOWN MENU LIST CSS CODE 👇👇=========  */
+
+.drop-list {
+    flex-direction: column;
+    /* background-color: #0957e79c; */
+    background-color: rgba(0, 0, 0, 0.457);
+    color: white;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    position: absolute;
+    visibility: hidden;
+    /* margin-top: 1.5rem; */
+}
+
+.dropdown-menu:hover .drop-list {
+    visibility: visible;
+    transition: all 0.5s;
+}
+
+.dropdown-menu:hover .drop-list a li {
+    color: white;
+    padding: 0.3rem 0rem;
+}
+
+
+/* ===============================================
+                    H E R O    SECTION 
+ ==================================================  */
+
+
+/* -----nav section----- */
+
+#header {
+    width: 100vw;
+    height: 70vh;
+    background-image: linear-gradient(rgba(31, 28, 28, 0.61), rgba(0, 0, 0, 0.685)), url(../images/service-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header .container {
+    width: 100%;
+    height: 100%;
+}
+
+#header .heroNav {
+    width: 80%;
+    margin: auto;
+    color: white;
+    padding: 2rem 0rem;
+}
+
+#header .heroNav .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .heroNav .container .logo {
+    width: 20%;
+}
+
+#header .heroNav .container .logo img {
+    color: white;
+    width: 100%;
+}
+
+#header .heroNav .container .navMenu {
+    width: 60%;
+}
+
+#header .heroNav .container .navMenu .navBar {
+    width: 100%;
+}
+
+#header .heroNav .container .navMenu .navBar ul {
+    display: flex;
+}
+
+#header .heroNav .container .navMenu .navBar ul li {
+    list-style: none;
+    margin: 0rem 0.5rem;
+}
+
+#header .heroNav .container .navMenu .navBar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#header .heroNav .container .navMenu .navBar ul li a:hover {
+    color: #0957E7;
+    transition: all 0.3s;
+}
+
+#header .heroNav .container .navCartIcon a {
+    text-decoration: none;
+    color: white;
+}
+
+#header .heroNav .container .navCartIcon a:hover {
+    color: #0957E7;
+    transition: all 0.3s;
+}
+
+#header .container .hero-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 3rem 0rem;
+}
+
+#header .container .hero-content .container {
+    width: 100%;
+    height: 100%;
+}
+
+#header .container .hero-content .container h1 {
+    padding: 0.5rem 0rem;
+    font-size: 2.5rem;
+}
+
+
+/* 
+=================================================
+                    FEATURE SECTION
+================================================= */
+
+#feature {
+    width: 100%;
+    padding: 5rem 0rem;
+    background-color: rgba(128, 128, 128, 0.096);
+    border-top: 1px solid rgba(128, 128, 128, 0.281);
+}
+
+#feature .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#feature .container .card {
+    padding: 0.5rem;
+}
+
+#feature .container .card .card-container i {
+    color: #0957E7;
+    font-size: 2.5rem;
+}
+
+#feature .container .card .card-container h3 {
+    padding: 1rem 0rem;
+}
+
+#feature .container .card .card-container p {
+    color: gray;
+}
+
+
+/* ===============================================
+                    COUNT SECTION
+================================================= */
+
+#count {
+    width: 100%;
+    padding: 5rem 0rem;
+    background-color: #0957e7b4;
+    color: white;
+}
+
+#count .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: c;
+}
+
+#count .container .card {
+    padding: 1rem;
+}
+
+#count .container .card .card-container h3 {
+    padding: 0.5rem 0rem;
+}
+
+#count .container .card .card-container p {
+    line-height: 1.8;
+    font-size: 0.9rem;
+}
+
+
+/* ===============================================
+                    FOOTER
+================================================= */
+
+#footer {
+    width: 100%;
+    padding: 5rem 0rem;
+    box-shadow: 5px 3px 20px gray;
+    background-color: rgba(128, 128, 128, 0.092);
+}
+
+#footer .container {
+    width: 80%;
+    padding: 3rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 5px 3px 20px gray;
+}
+
+#footer .container .box {
+    width: 100%;
+    margin: 0rem 1rem;
+}
+
+#footer .container .box1 {
+    text-align: center;
+}
+
+#footer .container .box1 p {
+    color: gray;
+    padding: 1.2rem 0rem;
+    line-height: 1.8;
+}
+
+#footer .container .box1 .icon {
+    padding: 1rem 0rem;
+}
+
+#footer .container .box1 .icon i {
+    font-size: 1.5rem;
+    color: gray;
+    padding: 0rem 0.5rem;
+}
+
+#footer .container .box2 {
+    padding: 0rem 1rem;
+}
+
+#footer .container .box2 .sub-box {
+    width: 100%;
+}
+
+#footer .container .box2 .sub-box1 {
+    padding: 1rem 0rem;
+    text-align: center;
+}
+
+#footer .container .box2 .sub-box1 h2 {
+    color: gray;
+}
+
+#footer .container .box2 .sub-box2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .container .box2 .sub-box2 .card p {
+    padding: 0.3rem 0rem;
+    text-align: center;
+}
+
+#footer .container .box3 {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+#footer .container .box3 h1 {
+    padding: 1rem 0rem;
+    color: #0957E7;
+}
+
+#footer .container .box3 p {
+    padding: 1rem 0rem;
+}
+
+
+/* ===============================================
+                   COPYRIGHT SECTION
+================================================= */
+
+#copy {
+    width: 100%;
+    padding: 3rem 0rem;
+    text-align: center;
+}
