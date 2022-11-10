@@ -248,6 +248,77 @@ body {
 }
 
 
+/* 
+=================================================
+                    FEATURE SECTION
+================================================= */
+
+#feature {
+    width: 100%;
+    padding: 5rem 0rem;
+    background-color: rgba(128, 128, 128, 0.096);
+    border-top: 1px solid rgba(128, 128, 128, 0.281);
+}
+
+#feature .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#feature .container .card {
+    padding: 0.5rem;
+}
+
+#feature .container .card .card-container i {
+    color: #0957E7;
+    font-size: 2.5rem;
+}
+
+#feature .container .card .card-container h3 {
+    padding: 1rem 0rem;
+}
+
+#feature .container .card .card-container p {
+    color: gray;
+}
+
+
+/* ===============================================
+                    COUNT SECTION
+================================================= */
+
+#count {
+    width: 100%;
+    padding: 5rem 0rem;
+    background-color: #0957e7b4;
+    color: white;
+}
+
+#count .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: c;
+}
+
+#count .container .card {
+    padding: 1rem;
+}
+
+#count .container .card .card-container h3 {
+    padding: 0.5rem 0rem;
+}
+
+#count .container .card .card-container p {
+    line-height: 1.8;
+    font-size: 0.9rem;
+}
+
+
 /* ===============================================
                     FOOTER
 ================================================= */
@@ -255,15 +326,19 @@ body {
 #footer {
     width: 100%;
     padding: 5rem 0rem;
-    background-color: white;
     box-shadow: 5px 3px 20px gray;
+    background-color: rgba(128, 128, 128, 0.092);
 }
 
 #footer .container {
     width: 80%;
+    padding: 3rem;
     margin: auto;
     display: flex;
     justify-content: space-around;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 5px 3px 20px gray;
 }
 
 #footer .container .box {
