@@ -150,6 +150,104 @@ body {
 }
 
 
+/* ==================== CALCULATOR FORM SECTION ======================== */
+
+#calculator {
+    width: 100%;
+    padding: 5rem 0rem;
+}
+
+#calculator .container {
+    width: 80%;
+    margin: auto;
+}
+
+#calculator .container .box {
+    margin: 5rem 0rem;
+    background-color: #0957e710;
+    padding: 3rem;
+    border-radius: 0.3rem;
+}
+
+#calculator .container .box1 .content {
+    width: 100%;
+}
+
+#calculator .container .box1 .content h1 {
+    color: gray;
+    padding: 1rem 0rem;
+}
+
+#calculator .container .box1 .content .card {
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+#calculator .container .box1 .content .card p {
+    color: gray;
+    padding-bottom: 0.5rem;
+}
+
+#calculator .container .box1 .content .card select {
+    width: 100%;
+    padding: 1rem 1.5rem;
+}
+
+#calculator .container .box1 .content .btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+}
+
+#calculator .container .box1 .content .btn h3 {
+    color: gray;
+}
+
+#calculator .container .box1 .content .btn a {
+    background-color: #0957E7;
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+#calculator .container .box2 .content {
+    width: 100%;
+}
+
+#calculator .container .box2 .content h1 {
+    color: gray;
+    padding: 1rem 0rem;
+}
+
+#calculator .container .box2 .content .card {
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+#calculator .container .box2 .content .card select {
+    width: 100%;
+    padding: 1rem 1.5rem;
+}
+
+#calculator .container .box2 .content .btn {
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#calculator .container .box2 .content .btn h2 {
+    color: gray;
+}
+
+#calculator .container .box2 .content .btn a {
+    background-color: #0957E7;
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+
 /* ===============================================
                     FOOTER
 ================================================= */
